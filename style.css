@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Monaco, monospace;
     margin: 0;
     padding: 0;
 }
@@ -9,11 +9,18 @@ header {
     color: #fff;
     padding: 10px;
 }
+.container{
+    display: grid;
+    grid-template-columns: auto 300px;
+    justify-content: space-around;
+    padding: 10px;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #BDB5D5;
   overflow: hidden;
+  display: block;
 }
 
 /* Style the links inside the navigation bar */
