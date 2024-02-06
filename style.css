@@ -17,15 +17,23 @@ header {
     justify-content: space-around;
     padding: 10px;
     text-align: center;
-    background-color: #eeeaf5;
 }
 
 .container-2{
     display: grid;
-    grid-template-columns: auto 300px; 
-    /* justify-content: space-around; */
-    padding: 10px;
-    background-color: #eeeaf5;
+    grid-template-columns: auto auto; 
+    column-gap: 20px;
+    justify-content: space-around; 
+    padding: 20px;
+}
+
+.container-3{
+  display: grid;
+  grid-template-columns: auto auto auto; 
+  column-gap: 20px;
+  justify-content: space-around; 
+  padding: 20px;
+  text-align: center;
 }
 
 /* Add a black background color to the top navigation */
