@@ -201,15 +201,15 @@ header {
 }
 
 .grid-item{
-  width: 25%;
-  height: 25%;
+  width: 75%;
+  height: 75%;
   margin: 5px 0;
   padding-left: 20px;
   padding-right: 20px;
 }
 .grid-item > img{
-  width: 25%;
-  height: 25%;
+  width: 75%;
+  height: 75%;
 }
 
 .grid-item2{
