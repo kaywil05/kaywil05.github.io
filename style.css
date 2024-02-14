@@ -6,11 +6,12 @@ body {
 }
 
 header {
-    background-color: #BDB5D5;
+    background-color: #BDB5D5; /*purple background*/
     color: #fff;
     padding: 10px;
 }
 
+/* Used on About me page */
 .container{
     display: grid;
     /* grid-template-columns: auto 300px; */
@@ -19,17 +20,19 @@ header {
     text-align: center;
 }
 
+/* Used for projects page */
 .container-2{
     display: grid;
-    grid-template-columns: 550px auto; 
+    grid-template-columns: 550px auto; /* Two columns */
     column-gap: 20px;
     justify-content: space-around; 
     padding: 20px;
 }
 
+/*Contact page*/
 .container-3{
   display: grid;
-  grid-template-columns: auto auto auto; 
+  grid-template-columns: auto auto auto; /* Three columns */
   column-gap: 20px;
   justify-content: space-around; 
   padding: 20px;
@@ -37,6 +40,7 @@ header {
   /* opacity: 0.5; */
 }
 
+/*Used on projects page with text and two pics*/
 .container-4{
   display: grid;
   grid-template-columns: 450px auto auto; 
@@ -60,6 +64,7 @@ header {
   height: 300px;
 }
 
+/*grid for images on anime page and then hobbies page*/
 #grid{
   display: flex;
   flex-wrap: wrap;
@@ -158,7 +163,7 @@ header {
   color: white;
 }
 
-
+/*Change sizes of some content to better fit smaller screens*/
 @media only screen and (max-width: 1023px) {
 
 body {
